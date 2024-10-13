@@ -36,7 +36,7 @@ header{
 }
 
 #logo{
-    width: 100px;
+    width: 90px;
     border-radius: 100px;
 }
 
@@ -159,7 +159,7 @@ main{
 
 .resultado-pesquisa{
     min-width: 290px;
-    max-width: 514px;
+    max-width: 814px;
     padding: 20px 32px 12px;
     margin-bottom: 10px;
 
@@ -170,6 +170,9 @@ main{
     border-bottom: 1px solid #e5e5e5;
 
     margin-bottom: 10px;
+
+
+    
 }
 
 footer{

@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    /* background-color: #0F4157; */
+    background-color: #FAFBFB;
+   /*  max-width: 1200px; */
+   width: 100%;
+   height: 100%;
+
+   display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color: #2F6E8B;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    
+}
+
+#logo{
+    width: 100px;
+    border-radius: 100px;
+}
+
+#container-pesquisa{
+    display: flex;
+}
+
+#container-pesquisa #pesquisar{
+    width: 100%;
+    margin-right: 12px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #d5d5d5;
+    height: 32px;
+    padding: 6px 38px 6px 12px;
+    color: gray;
+    font-weight: 400;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.27);
+}
+
+#container-pesquisa button{
+   /*  height: 40px; */
+    margin-right: 12px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #d5d5d5;
+    height: 32px;
+    padding: 6px 12px 6px 12px;
+    color: gray;
+    font-weight: 400;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.27);
+    cursor: pointer;
+}
+
+#container-pesquisa button img{
+    height: 100%;
+}
+
+#login {margin-right: 12px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #d5d5d5;
+    height: 32px;
+    padding: 6px 12px 6px 12px;
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+#inscrever {margin-right: 12px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #d5d5d5;
+    height: 32px;
+    padding: 6px 12px 6px 12px;
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+main{
+    width: 80%;
+    height: 80%;
+    /* background-color: #FAFBFB; */
+    background-color: #0F4157;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container-filters{
+    /* background-color: red; */
+    display: flex;
+    justify-content: left;
+    
+    width: 100%;
+    padding: 12px 30px;
+}
+.filters__item {
+    margin-right: 12px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #d5d5d5;
+    height: 32px;
+    padding: 6px 38px 6px 12px;
+    color: gray;
+    font-weight: 400;
+    /* font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif; */
+    font-size: 14px;
+    letter-spacing: 0;
+    text-align: center;
+    background-image: url(https://sc.wklcdn.com/wikiloc/assets/styles/images/search/dropdown.svg);
+    background-position: right 10px top 12px;
+    background-size: 12px;
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+}
+
+#container-mapa{
+    /* border: 1px solid rgb(255, 255, 255); */
+    margin-bottom: 50px;
+    padding: 1px;
+}
+#mapa {
+    width: 1000px;
+    border-radius: 6px;
+    
+    /* box-shadow: 0 2px 3px -1px rgba(250, 250, 250, 0.767); */
+    
+} 
+
+.resultado-pesquisa{
+    min-width: 290px;
+    max-width: 514px;
+    padding: 20px 32px 12px;
+    margin-bottom: 10px;
+
+    border: 1px solid #f4f4f4;
+    border-radius: 6px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5;
+
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #2F6E8B;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+}
